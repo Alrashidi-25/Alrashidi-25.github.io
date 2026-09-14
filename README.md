@@ -16,7 +16,7 @@ python3 -m http.server 8000
 - **Hero** — headline, profile snapshot, quick links
 - **About** — background and how the pieces fit together
 - **Focus** — Systems & Requirements → Business Analysis → Data & BI → Delivery & Security
-- **Projects** — Masar (GPA planner) and the senior capstone project
+- **Projects** — Ruaa (CSV analysis engine), Masar (GPA planner) and the senior capstone project
 - **Skills** — business analysis, data & BI, project management, cybersecurity, programming, cloud & AI
 - **Experience** — virtual job simulations with BCG, Siemens, stc, Microsoft, Accenture and Misk
 - **Certifications** — nine verified certificates with image and PDF viewers
@@ -43,10 +43,16 @@ python3 -m http.server 8000
    the problem, your role, the tools and a screenshot.
 3. **CV** — if you want a download button, add the PDF to `assets/` and link it from the hero.
 
-> `masar/` is also published as a standalone repo at
-> [Alrashidi-25/masar](https://github.com/Alrashidi-25/masar). The copy here keeps the
-> "Open Live Demo" button working from the portfolio itself; if you change one, copy the
-> files across.
+## Related repos
+
+| Project | Repo | Live |
+|---|---|---|
+| Ruaa — in-browser CSV analysis | [Alrashidi-25/ruaa](https://github.com/Alrashidi-25/ruaa) | [alrashidi-25.github.io/ruaa](https://alrashidi-25.github.io/ruaa/) |
+| Masar — GPA planner | [Alrashidi-25/masar](https://github.com/Alrashidi-25/masar) | [alrashidi-25.github.io/masar](https://alrashidi-25.github.io/masar/) |
+
+> `masar/` is also vendored in this repo so its "Open Live Demo" button works from the
+> portfolio itself; if you change one copy, copy the files across. Ruaa is linked to its
+> own Pages site rather than vendored.
 
 ## Tech
 

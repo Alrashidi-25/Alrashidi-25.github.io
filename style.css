@@ -352,6 +352,32 @@ section{padding:104px 0;position:relative;z-index:1}
 .mock-row b{color:var(--accent);width:24px;text-align:center}
 .mock-row i{color:var(--muted);font-style:normal;width:42px;text-align:left}
 
+.mock-findings{display:flex;flex-direction:column;gap:7px}
+.mock-find{
+  display:flex;align-items:flex-start;gap:9px;padding:9px 11px;border-radius:10px;
+  background:rgba(255,255,255,.03);border:1px solid var(--border);
+  border-inline-start:2px solid var(--muted);
+}
+.mock-find.is-warn{border-inline-start-color:var(--accent)}
+.mock-find.is-info{border-inline-start-color:#6aa6e8}
+.mock-find b{
+  flex:none;padding:1px 7px;border-radius:999px;font-size:9.5px;font-weight:700;
+  background:rgba(255,255,255,.06);color:var(--muted);
+}
+.mock-find.is-warn b{background:var(--accent-soft);color:var(--accent)}
+.mock-find.is-info b{background:rgba(106,166,232,.13);color:#6aa6e8}
+.mock-find span{font-size:11px;color:var(--text-2);line-height:1.5;min-width:0}
+
+.mock-spark{
+  margin-top:auto;display:flex;align-items:flex-end;gap:5px;height:52px;
+  padding:10px 12px;border-radius:11px;
+  background:rgba(255,255,255,.03);border:1px solid var(--border);
+}
+.mock-spark i{
+  flex:1;min-width:0;border-radius:3px 3px 0 0;
+  background:linear-gradient(to top,rgba(230,169,74,.35),var(--accent));
+}
+
 .mock-target{
   margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;
   padding:12px 14px;border-radius:11px;
