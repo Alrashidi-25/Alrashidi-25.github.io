@@ -200,6 +200,57 @@
 
     <div class="projects">
 
+      <!-- Lead: Jisr (three-part project) -->
+      <article class="project jisr" data-reveal>
+        <div class="jisr-head">
+          <a class="jisr-shot" href="https://alrashidi-25.github.io/jisr-business-analysis/" target="_blank" rel="noopener">
+            <img src="assets/projects/jisr.png" alt="Jisr business analysis case study" loading="lazy">
+          </a>
+          <div class="project-info">
+            <div class="project-top">
+              <span class="tag tag-primary">Business Analysis · SQL · Power BI</span>
+              <span class="tag">2026</span>
+            </div>
+            <h3>جسر · Jisr — Co-op Placement System, End to End</h3>
+            <p class="project-sub">One real problem taken from requirements, to a tested database, to a KPI dashboard.</p>
+            <p><strong>Problem:</strong> Co-op training placements run on paper forms, email and spreadsheets. Students can't see where their request is, staff type nomination letters one by one in the same few weeks every term, and nobody has reliable data on placements or partners.</p>
+            <p><strong>Approach:</strong> Analyzed the process the way an analyst would, specified the system that fixes it, built and tested the database behind it, and designed the dashboard that measures whether the fix works.</p>
+            <p class="jisr-insight"><strong>Headline finding</strong> <span>(synthetic data)</span> — requests arriving in the last three weeks before term met the review target only <b>46–49%</b> of the time, against <b>84–90%</b> for earlier ones: a timing problem, not a staffing one.</p>
+          </div>
+        </div>
+
+        <ol class="jisr-parts">
+          <li>
+            <span class="jisr-num">1</span>
+            <h4>Business analysis case study</h4>
+            <p>Current and future process maps, 7 pain points traced to root causes, 28 requirements with MoSCoW priorities, use cases, user stories, KPIs, a weighted options analysis and a 17-page BRD.</p>
+            <div class="jisr-links">
+              <a href="https://alrashidi-25.github.io/jisr-business-analysis/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Read case study <svg class="ic"><use href="#i-arrow-right"/></svg></a>
+              <a href="https://alrashidi-25.github.io/jisr-business-analysis/docs/Jisr_BRD.pdf" target="_blank" rel="noopener" class="btn btn-outline btn-sm"><svg class="ic"><use href="#i-doc"/></svg> BRD</a>
+            </div>
+          </li>
+          <li>
+            <span class="jisr-num">2</span>
+            <h4>Database &amp; SQL analysis</h4>
+            <p>An 18-table SQLite schema that enforces the approval workflow with triggers, 563 synthetic requests, 16 business questions answered in SQL, and 11 tests proving the rules hold.</p>
+            <div class="jisr-links">
+              <a href="https://github.com/Alrashidi-25/jisr-database" target="_blank" rel="noopener" class="btn btn-outline btn-sm"><svg class="ic"><use href="#i-github"/></svg> Source &amp; results</a>
+            </div>
+          </li>
+          <li>
+            <span class="jisr-num">3</span>
+            <h4>Power BI dashboard <span class="tag tag-accent">In progress</span></h4>
+            <p>Star schema with personal data removed, 27 DAX measures, a report theme and four page designs — verified against independently computed values. Report build under way.</p>
+            <div class="jisr-links">
+              <a href="https://github.com/Alrashidi-25/jisr-powerbi" target="_blank" rel="noopener" class="btn btn-outline btn-sm"><svg class="ic"><use href="#i-github"/></svg> Model &amp; measures</a>
+            </div>
+          </li>
+        </ol>
+        <div class="stack jisr-stack">
+          <span class="chip">Process mapping</span><span class="chip">Requirements</span><span class="chip">Use cases</span><span class="chip">SQL</span><span class="chip">SQLite</span><span class="chip">DAX</span><span class="chip">Power BI</span><span class="chip">Python</span>
+        </div>
+      </article>
+
       <!-- Featured: Ruaa -->
       <article class="project featured" data-reveal>
         <div class="project-preview">

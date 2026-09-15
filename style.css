@@ -422,6 +422,24 @@ section{padding:104px 0;position:relative;z-index:1}
 }
 .project-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 
+/* ---- Jisr: one project in three parts ---- */
+.project.jisr{border-color:var(--accent-line)}
+.jisr-head{display:grid;grid-template-columns:1fr 1.05fr;align-items:stretch}
+.jisr-head > *{min-width:0}
+.jisr-shot{display:flex;align-items:center;padding:28px;background:var(--bg-2);border-right:1px solid var(--border)}
+.jisr-shot img{display:block;width:100%;height:auto;border-radius:12px;border:1px solid var(--border-strong);box-shadow:var(--shadow);transition:transform .4s ease}
+.jisr-shot:hover img{transform:translateY(-3px)}
+.jisr-insight{margin-top:4px;padding:12px 14px;border-radius:10px;background:var(--accent-soft);border:1px solid var(--accent-line);color:var(--text-2) !important}
+.jisr-insight span{color:var(--muted);font-size:12.5px}
+.jisr-insight b{color:var(--accent)}
+.jisr-parts{list-style:none;margin:0;padding:24px 32px 8px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;border-top:1px solid var(--border)}
+.jisr-parts li{position:relative;display:flex;flex-direction:column;padding:18px 18px 16px;border-radius:12px;background:rgba(255,255,255,.025);border:1px solid var(--border)}
+.jisr-num{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;margin-bottom:10px;background:var(--accent);color:#14161c;font-family:var(--font-display);font-weight:800;font-size:13px}
+.jisr-parts h4{font-family:var(--font-display);font-size:15px;font-weight:700;margin:0 0 8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.jisr-parts p{font-size:13.3px;color:var(--muted);line-height:1.65;margin:0 0 14px;flex:1}
+.jisr-links{display:flex;flex-wrap:wrap;gap:8px}
+.jisr-stack{padding:0 32px 26px;margin-top:10px}
+
 /* ==========================================================================
    SKILLS
    ========================================================================== */
@@ -618,6 +636,9 @@ body.no-scroll{overflow:hidden}
   .about-media{position:static;max-width:340px}
   .project.featured{grid-template-columns:1fr}
   .project.featured .project-preview{border-right:0;border-bottom:1px solid var(--border)}
+  .jisr-head{grid-template-columns:1fr}
+  .jisr-shot{border-right:0;border-bottom:1px solid var(--border);padding:20px}
+  .jisr-parts{grid-template-columns:1fr}
 }
 
 @media (max-width:640px){
@@ -632,6 +653,8 @@ body.no-scroll{overflow:hidden}
   .snap-row{flex-direction:column;align-items:flex-start;gap:3px}
   .snap-tags{text-align:left}
   .project-info{padding:24px 20px}
+  .jisr-parts{padding:20px 20px 4px}
+  .jisr-stack{padding:0 20px 22px}
   .contact-card{padding:40px 22px}
   .edu-card{flex-direction:column;gap:16px;padding:26px 22px}
   .cert-grid{grid-template-columns:1fr}
