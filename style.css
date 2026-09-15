@@ -528,7 +528,7 @@ section{padding:104px 0;position:relative;z-index:1}
 }
 .contact-card .section-title,.contact-card .section-intro{margin-left:auto;margin-right:auto}
 .contact-card .section-intro{margin-bottom:36px}
-.contact-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:13px;max-width:800px;margin:0 auto}
+.contact-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:13px;max-width:640px;margin:0 auto}
 .contact-link{
   display:flex;align-items:center;gap:13px;padding:17px 20px;text-align:left;
   background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:13px;

@@ -41,7 +41,8 @@ python3 -m http.server 8000
    section (there's a comment in `index.html` marking the exact spot).
 2. **Graduation project** — the second project card has a placeholder comment; add the title,
    the problem, your role, the tools and a screenshot.
-3. **CV** — if you want a download button, add the PDF to `assets/` and link it from the hero.
+3. **CV** — `assets/Abdulrahman_Alrashidi_CV.pdf` is the public copy (phone number left out on
+   purpose). Replace the file to update it; the nav, hero and contact links all point to it.
 
 ## Related repos
 
