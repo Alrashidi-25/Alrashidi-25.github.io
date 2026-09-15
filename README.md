@@ -30,7 +30,7 @@ python3 -m http.server 8000
 ├── index.html            # the portfolio
 ├── style.css
 ├── script.js             # nav, scroll reveals, counters, lightbox
-├── masar/                # the GPA planner project (see masar/README.md)
+├── 404.html              # custom not-found page
 └── assets/
     └── certs/            # certificate images (.jpg) and originals (pdf/)
 ```
@@ -51,9 +51,7 @@ python3 -m http.server 8000
 | Ruaa — in-browser CSV analysis | [Alrashidi-25/ruaa](https://github.com/Alrashidi-25/ruaa) | [alrashidi-25.github.io/ruaa](https://alrashidi-25.github.io/ruaa/) |
 | Masar — GPA planner | [Alrashidi-25/masar](https://github.com/Alrashidi-25/masar) | [alrashidi-25.github.io/masar](https://alrashidi-25.github.io/masar/) |
 
-> `masar/` is also vendored in this repo so its "Open Live Demo" button works from the
-> portfolio itself; if you change one copy, copy the files across. Ruaa is linked to its
-> own Pages site rather than vendored.
+Both projects live in their own repos and are served by GitHub Pages under this domain.
 
 ## Tech
 
