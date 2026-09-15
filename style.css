@@ -508,7 +508,32 @@ section{padding:104px 0;position:relative;z-index:1}
 /* ==========================================================================
    EDUCATION
    ========================================================================== */
-#education{background:var(--bg-2);border-block:1px solid var(--border)}
+/* ==========================================================================
+   WORKSHOPS
+   ========================================================================== */
+#workshops{background:var(--bg-2);border-block:1px solid var(--border)}
+.ws-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.ws-grid > *{min-width:0}
+.ws{
+  display:flex;flex-direction:column;text-align:left;padding:0;cursor:zoom-in;
+  background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;
+  color:inherit;font:inherit;transition:border-color .25s,transform .25s;
+}
+.ws:hover{border-color:var(--accent-line);transform:translateY(-3px)}
+.ws img{width:100%;aspect-ratio:1.45/1;object-fit:cover;background:#fff;border-bottom:1px solid var(--border)}
+.ws-body{display:flex;flex-direction:column;gap:3px;padding:14px 16px 16px}
+.ws-tag{
+  align-self:flex-start;margin-bottom:5px;padding:2px 9px;border-radius:999px;
+  font-size:10.5px;font-weight:700;font-family:var(--font-display);
+  background:var(--accent-soft);color:var(--accent);
+}
+.ws-tag-blue{background:var(--blue-soft);color:var(--blue)}
+.ws-tag-green{background:rgba(95,201,140,.12);color:#5fc98c}
+.ws-body strong{font-family:var(--font-display);font-size:14.3px;line-height:1.35;color:var(--text)}
+.ws-org{font-size:12.3px;color:var(--muted)}
+.ws-meta{font-family:var(--font-mono);font-size:11.3px;color:var(--text-2);margin-top:4px}
+
+#education{border-top:1px solid var(--border)}
 .edu-card{
   display:flex;gap:24px;align-items:flex-start;
   background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:32px;
