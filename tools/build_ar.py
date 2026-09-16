@@ -69,8 +69,7 @@ T = [
      '<span class="snap-cat">الأمن</span><span class="snap-tags">الاستجابة للحوادث · التقارير</span>'),
 
     # ---------------------------------------------------------------- about
-    ('role="img" aria-label="Abdulrahman Alrashidi"', 'role="img" aria-label="عبدالرحمن الرشيدي"'),
-    ('<span class="mono-sub">عبدالرحمن الرشيدي</span>', '<span class="mono-sub" lang="en" dir="ltr">Abdulrahman Alrashidi</span>'),
+    ('alt="Portrait of Abdulrahman Alrashidi"', 'alt="صورة عبدالرحمن الرشيدي"'),
     ('</svg> Al-Ahsa, Saudi Arabia</div>', '</svg> الأحساء، المملكة العربية السعودية</div>'),
     ('<p class="section-eyebrow" data-reveal>About Me</p>', '<p class="section-eyebrow" data-reveal>نبذة عني</p>'),
     ('I sit where the business question meets the technical answer.', 'أقف حيث يلتقي سؤال الأعمال بالإجابة التقنية.'),
